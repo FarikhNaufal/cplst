@@ -60,7 +60,7 @@ return [
             'driver'    => 'azure', // As this is the name of the driver, this MUST be set to "azure"
             'name'      => env('AZURE_STORAGE_NAME'),
             'key'       => env('AZURE_STORAGE_KEY'),
-            'sasToken'  => env('AZURE_STORAGE_SAS_TOKEN'),
+            // 'sasToken'  => env('AZURE_STORAGE_SAS_TOKEN'),
             'container' => env('AZURE_STORAGE_CONTAINER'),
             'url'       => env('AZURE_STORAGE_URL'),
             'prefix'    => null,
