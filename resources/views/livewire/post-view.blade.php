@@ -26,7 +26,7 @@
                 <span class="text-neutral-300 md:text-xl font-semibold whitespace-pre-line">{{ $post->caption }}</span>
 
                 @if ($post->media)
-                    <img loading="lazy" src="{{ Storage::url('/users/' . $post->user_id . '/posts/' . $post->media) }}"
+                    <img loading="lazy" src="{{ Storage::url('public/users/' . $post->user_id . '/posts/' . $post->media) }}"
                         alt="{{ $post->media }}"
                         class="aspect-video object-contain bg-neutral-950 border-neutral-800 rounded border">
                 @endif
