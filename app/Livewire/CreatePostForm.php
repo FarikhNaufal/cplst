@@ -33,7 +33,7 @@ class CreatePostForm extends Component
         if ($this->media) {
             $imageName = time() . '-' . $this->media->getClientOriginalName();
             $path = "public/users/$this->user/posts/";
-            $this->media->storeAs($path, $imageName, 'local');
+            $this->media->storeAs($path, $imageName, 'azure');
         }
 
         Post::create([
