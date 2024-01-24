@@ -62,7 +62,7 @@ class PostAction extends Component
 
 
     public function shareButton(){
-        $this->postUrl = env('APP_URL') . '/post/' . $this->post->slug;
+        $this->postUrl = 'https://cplst.azurewebsites.net/post/' . $this->post->slug;
         $this->dispatch('post-link-copied', $this->postUrl);
         // session()->flash('success', 'Link copied.');
 
