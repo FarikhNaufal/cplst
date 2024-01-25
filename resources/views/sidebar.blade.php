@@ -3,7 +3,7 @@
         <div class="py-2 mb-6">
             <h2
                 class="text-3xl font-bold text-center bg-gradient-to-r from-blue-500 to-primary text-transparent bg-clip-text">
-                Cuplislite
+                Cuplislite Uhu
             </h2>
         </div>
 
